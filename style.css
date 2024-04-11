@@ -65,3 +65,94 @@ body{
     font-size: 22px;
 }
 
+.main{
+    flex: 6;
+    padding: 25px;
+}
+
+.main .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main .header .search{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 75%;
+    padding: 8px 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgb(136, 148, 171, 0.2), 0 24px 20px -24px rgb(71, 82, 187, 0.1);
+}
+
+.main .header .search button{
+    font-size: 20px;
+    border: none;
+    background: transparent;
+}
+
+.main .header .search input{
+    padding: 4px 6px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.main .header .search i{
+    cursor: pointer;
+}
+
+.main .header .icon-btns{
+    display: flex;
+    gap: 8px;
+}
+
+.main .header .icon-btns i{
+    font-size: 20px;
+    background: #1976d2;
+    color: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.main .header .icon-btns i:hover{
+    background-color: #0d47a1;
+}
+
+.main .header .icon-btns i#menu-bnt{
+    display: none ;
+}
+
+.main .separator{
+    margin: 35px 0 20px;
+    font-weight: 500;
+    color: #354670;
+}
+
+.main .quick-access{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main .quick-access .item{
+    background: #fff;
+    width: 20%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+
+
+
+.right-section{
+    flex: 2;
+}
